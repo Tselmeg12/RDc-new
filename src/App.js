@@ -44,7 +44,7 @@ import Features from "components/features/ThreeColWithSideImage.js";
 // import FeatureStats from "components/features/ThreeColCenteredStatsPrimaryBackground.js";
 
 // import Pricing from "components/pricing/ThreePlans.js";
- import Pricing from "components/pricing/ThreePlansWithHalfPrimaryBackground.js";
+// import Pricing from "components/pricing/ThreePlansWithHalfPrimaryBackground.js";
 // import Pricing from "components/pricing/TwoPlansWithDurationSwitcher.js";
 
  import SliderCard from "components/cards/ThreeColSlider.js";
@@ -64,7 +64,7 @@ import Features from "components/features/ThreeColWithSideImage.js";
 // import Testimonial from "components/testimonials/SimplePrimaryBackground.js";
 
 // import FAQ from "components/faqs/SimpleWithSideImage.js";
- import FAQ from "components/faqs/SingleCol.js";
+ //import FAQ from "components/faqs/SingleCol.js";
 // import FAQ from "components/faqs/TwoColumnPrimaryBackground.js";
 
 // import ContactUsForm from "components/forms/SimpleContactUs.js";
@@ -101,7 +101,7 @@ import Footer from "components/footers/SimpleFiveColumn.js";
 // import PrivacyPolicyPage from "pages/PrivacyPolicy.js";
 
 import ComponentRenderer from "ComponentRenderer.js";
-import MainLandingPage from "MainLandingPage.js";
+//import MainLandingPage from "MainLandingPage.js";
 
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
