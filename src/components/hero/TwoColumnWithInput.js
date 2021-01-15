@@ -59,10 +59,7 @@ export default ({ roundedHeaderButton }) => {
               Our templates are easy to setup, understand and customize. Fully modular components with a variety of
               pages and components.
             </Paragraph>
-            <Actions>
-              <input type="text" placeholder="Your E-mail Address" />
-              <button>Get Started</button>
-            </Actions>
+           
             <CustomersLogoStrip>
               <p>Our TRUSTED Customers</p>
               <img src={CustomersLogoStripImage} alt="Our Customers" />

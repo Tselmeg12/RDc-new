@@ -72,10 +72,10 @@ export default ({ roundedHeaderButton = false, logoLink, links, className, colla
    */
   const defaultLinks = [
     <NavLinks key={1}>
-      <NavLink href="/#">Бидний тухай</NavLink>
-      <NavLink href="/#">Мэдээ мэдээлэл</NavLink>
-      <NavLink href="/#">Үйлчилгээ</NavLink>
-      <NavLink href="/#">Ажлын туршлага</NavLink>
+      <NavLink href="/components/innerPages/AboutUsPage">Бидний тухай</NavLink>
+      <NavLink href="/components/landingPages/HotelTravelLandingPage">Мэдээ мэдээлэл</NavLink>
+      <NavLink href="/components/landingPages/SaaSProductLandingPage">Үйлчилгээ</NavLink>
+      <NavLink href="/components/innerPages/AboutUsPage,">Ажлын туршлага</NavLink>
       <NavLink href="/#" tw="lg:ml-12!">
         Санал хүсэлт
       </NavLink>
