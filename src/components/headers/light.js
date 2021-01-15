@@ -75,7 +75,7 @@ export default ({ roundedHeaderButton = false, logoLink, links, className, colla
       <NavLink href="/components/innerPages/AboutUsPage">Бидний тухай</NavLink>
       <NavLink href="/components/landingPages/HotelTravelLandingPage">Мэдээ мэдээлэл</NavLink>
       <NavLink href="/components/landingPages/SaaSProductLandingPage">Үйлчилгээ</NavLink>
-      <NavLink href="/components/innerPages/AboutUsPage,">Ажлын туршлага</NavLink>
+      <NavLink href="/components/innerPages/AboutUsPage,">Холбоо Барих</NavLink>
       <NavLink href="/#" tw="lg:ml-12!">
         Санал хүсэлт
       </NavLink>
