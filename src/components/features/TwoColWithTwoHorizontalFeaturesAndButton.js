@@ -3,7 +3,7 @@ import tw from "twin.macro";
 import styled from "styled-components";
 import { css } from "styled-components/macro"; //eslint-disable-line
 import { SectionHeading, Subheading as SubheadingBase } from "components/misc/Headings.js";
-import { PrimaryButton as PrimaryButtonBase } from "components/misc/Buttons.js";
+
 import TeamIllustrationSrc from "images/team-illustration-2.svg";
 import { ReactComponent as SvgDotPattern } from "images/dot-pattern.svg";
 import { ReactComponent as BriefcaseIcon } from "feather-icons/dist/icons/briefcase.svg";
@@ -54,10 +54,7 @@ const FeatureHeading = tw.div`ml-3 font-bold text-xl`;
 
 const FeatureDescription = tw.div`mt-4 text-center md:text-left text-gray-600 leading-relaxed`;
 
-const PrimaryButton = styled(PrimaryButtonBase)(props => [
-  tw`mt-12 text-sm inline-block mx-auto md:mx-0`,
-  props.buttonRounded && tw`rounded-full`
-]);
+
 
 export default ({
   subheading = "Our Expertise",
@@ -66,7 +63,7 @@ export default ({
       Designed & Developed by <span tw="text-primary-500">Professionals.</span>
     </>
   ),
-  description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+  description = "",
   primaryButtonText = "Learn More",
   primaryButtonUrl = "https://timerse.com",
   imageSrc = TeamIllustrationSrc,
@@ -91,13 +88,13 @@ export default ({
     {
       Icon: BriefcaseIcon,
       title: "Professionalism",
-      description: "We have the best professional marketing people across the globe just to work with you.",
+      description: "Геохими, геофизикийн судалгаа",
       iconContainerCss: tw`bg-teal-300 text-teal-800`
     },
     {
       Icon: MoneyIcon,
       title: "Affordable",
-      description: "We promise to offer you the best rate we can - at par with the industry standard.",
+      description: "Геоэкологи, гидрогеологийн судалгаа",
       iconContainerCss: tw`bg-red-300 text-red-800`
     }
   ];
@@ -134,9 +131,7 @@ export default ({
               ))}
             </Features>
 
-            <PrimaryButton buttonRounded={buttonRounded} as="a" href={primaryButtonUrl}>
-              {primaryButtonText}
-            </PrimaryButton>
+         
           </TextContent>
         </TextColumn>
       </TwoColumn>

@@ -36,14 +36,15 @@ export default () => {
         <Row>
           <LogoContainer>
             <LogoImg src={logo} />
-            <LogoText>Treact</LogoText>
+            <LogoText>Erdenes R&D</LogoText>
           </LogoContainer>
           <LinksContainer>
-            <Link href="#">Home</Link>
-            <Link href="#">About</Link>
-            <Link href="#">Contact Us</Link>
-            <Link href="#">Blog</Link>
-            <Link href="#">Reviews</Link>
+            <Link href="/">Нүүр</Link>
+            <Link href="/components/innerPages/AboutUsPage">Бидний тухай</Link>
+            <Link href="/components/landingPages/HotelTravelLandingPage">Мэдээ мэдээлэл</Link>
+            <Link href="/">Холбоо барих</Link>
+            <Link href="/components/landingPages/SaaSProductLandingPage">Үйлчилгээ</Link>
+       
           </LinksContainer>
           <SocialLinksContainer>
             <SocialLink href="https://facebook.com">
@@ -57,7 +58,7 @@ export default () => {
             </SocialLink>
           </SocialLinksContainer>
           <CopyrightText>
-            &copy; Copyright 2020, Treact Inc. All Rights Reserved.
+            &copy; Copyright 2021, Uizhen powered by Tcaert. All Rights Reserved.
           </CopyrightText>
         </Row>
       </Content>

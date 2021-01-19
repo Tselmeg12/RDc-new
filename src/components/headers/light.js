@@ -77,7 +77,7 @@ export default ({ roundedHeaderButton = false, logoLink, links, className, colla
       <NavLink href="/components/landingPages/SaaSProductLandingPage">Үйлчилгээ</NavLink>
       <NavLink href="/components/innerPages/AboutUsPage,">Холбоо Барих</NavLink>
 
-      <PrimaryLink css={roundedHeaderButton && tw`rounded-full`}href="/#">Хамтран ажиллах</PrimaryLink>
+      <PrimaryLink css={roundedHeaderButton && tw`rounded-full`}href="https://docs.google.com/forms/d/e/1FAIpQLSfebgDZ-Fk_zanAVQ0w4OGa7jriF4_DoO5dMF27zaEzHrejnQ/viewform?usp=sf_link">Хамтран ажиллах</PrimaryLink>
     </NavLinks>
   ];
 

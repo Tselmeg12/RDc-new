@@ -3,7 +3,7 @@ import tw from "twin.macro";
 import styled from "styled-components";
 import { css } from "styled-components/macro"; //eslint-disable-line
 import { SectionHeading, Subheading as SubheadingBase } from "components/misc/Headings.js";
-import { PrimaryButton as PrimaryButtonBase } from "components/misc/Buttons.js";
+
 import TeamIllustrationSrc from "images/team-illustration-2.svg";
 import {ReactComponent as SvgDotPattern } from "images/dot-pattern.svg"
 
@@ -34,10 +34,7 @@ const Heading = tw(
 )`mt-4 font-black text-left text-3xl sm:text-4xl lg:text-5xl text-center md:text-left leading-tight`;
 const Description = tw.p`mt-4 text-center md:text-left text-sm md:text-base lg:text-lg font-medium leading-relaxed text-secondary-100`;
 
-const PrimaryButton = styled(PrimaryButtonBase)(props => [
-  tw`mt-8 md:mt-8 text-sm inline-block mx-auto md:mx-0`,
-  props.buttonRounded && tw`rounded-full`
-]);
+
 
 
 export default ({
@@ -56,10 +53,9 @@ export default ({
    description2 = " - Уул уурхайн байгаль орчин, нийгэм, эдийн засагт үзүүлэх нөлөөллийн судалгаа",
     description3 = " - Уул уурхайн үйлдвэрийн хөрөнгийн үнэлгээ, эдийн засгийн үр ашгийн судалгаа",
      description4 = " - Уул уурхайн үйлдвэрлэлийн процессуудын технологи-эдийн засгийн загварчлал, харилцан уялдаа, оновчлолын судалгаа",
-      description5 = " - Олон улсын эрдэм шинжилгээ, судалгааны төв.",
+      description5 = " - Уул уурхайн үйлдвэрийн технологийн процессийн иж бүрэн автоматжуулалтын судалгаа",
           description6 = " - Уурхайн ус таталт, тогтворжилт",
-  primaryButtonText = "Үзэх",
-  primaryButtonUrl = "https://www.facebook.com/%D0%AD%D1%80%D0%B4%D1%8D%D0%BD%D1%8D%D1%81-%D2%AF%D0%BD%D0%B4%D1%8D%D1%81%D0%BD%D0%B8%D0%B9-%D1%81%D1%83%D0%B4%D0%B0%D0%BB%D0%B3%D0%B0%D0%B0-%D1%85%D3%A9%D0%B3%D0%B6%D0%BB%D0%B8%D0%B9%D0%BD-%D1%82%D3%A9%D0%B2-Erdenes-national-RD-center-100727145357173",
+ 
   imageSrc = TeamIllustrationSrc,
   buttonRounded = true,
   imageRounded = true,
@@ -89,9 +85,7 @@ export default ({
             <Description>{description4}</Description>
             <Description>{description5}</Description>
             <Description>{description6}</Description>
-            <PrimaryButton buttonRounded={buttonRounded} as="a" href={primaryButtonUrl}>
-              {primaryButtonText}
-            </PrimaryButton>
+            
           </TextContent>
         </TextColumn>
       </TwoColumn>
