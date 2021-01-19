@@ -75,7 +75,7 @@ import Features from "components/features/ThreeColWithSideImage.js";
 // import GetStarted from "components/cta/GetStartedLight.js";
 // import DownloadApp from "components/cta/DownloadApp.js";
 
-import Footer from "components/footers/SimpleFiveColumn.js";
+import Footer from "components/footers/MiniCenteredFooter.js";
 // import Footer from "components/footers/FiveColumnWithInputForm.js";
 // import Footer from "components/footers/FiveColumnWithBackground.js";
 // import Footer from "components/footers/FiveColumnDark.js";
