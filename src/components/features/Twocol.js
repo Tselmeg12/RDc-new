@@ -44,11 +44,21 @@ export default ({
   subheading = "",
   heading = (
     <>
-      Designed & Developed by <span tw="text-primary-500">Professionals.</span>
+    Ашигт малтмалын <span tw="text-primary-500">судалгаа.</span>
     </>
   ),
-  description = " Дэвшилтэт техник технологийн ололтыг эрэлхийлсэн Олон улсын эрдэм шинжилгээ, судалгааны төв.",
-  primaryButtonText = "Өшөө үзэх",
+  description1 = " - Уул уурхайн салбарын бодлогын судалгаа",
+
+
+
+
+
+   description2 = " - Уул уурхайн байгаль орчин, нийгэм, эдийн засагт үзүүлэх нөлөөллийн судалгаа",
+    description3 = " - Уул уурхайн үйлдвэрийн хөрөнгийн үнэлгээ, эдийн засгийн үр ашгийн судалгаа",
+     description4 = " - Уул уурхайн үйлдвэрлэлийн процессуудын технологи-эдийн засгийн загварчлал, харилцан уялдаа, оновчлолын судалгаа",
+      description5 = " - Олон улсын эрдэм шинжилгээ, судалгааны төв.",
+          description6 = " - Уурхайн ус таталт, тогтворжилт",
+  primaryButtonText = "Үзэх",
   primaryButtonUrl = "https://www.facebook.com/%D0%AD%D1%80%D0%B4%D1%8D%D0%BD%D1%8D%D1%81-%D2%AF%D0%BD%D0%B4%D1%8D%D1%81%D0%BD%D0%B8%D0%B9-%D1%81%D1%83%D0%B4%D0%B0%D0%BB%D0%B3%D0%B0%D0%B0-%D1%85%D3%A9%D0%B3%D0%B6%D0%BB%D0%B8%D0%B9%D0%BD-%D1%82%D3%A9%D0%B2-Erdenes-national-RD-center-100727145357173",
   imageSrc = TeamIllustrationSrc,
   buttonRounded = true,
@@ -73,7 +83,12 @@ export default ({
           <TextContent>
             <Subheading>{subheading}</Subheading>
             <Heading>{heading}</Heading>
-            <Description>{description}</Description>
+            <Description>{description1}</Description>
+            <Description>{description2}</Description>
+            <Description>{description3}</Description>
+            <Description>{description4}</Description>
+            <Description>{description5}</Description>
+            <Description>{description6}</Description>
             <PrimaryButton buttonRounded={buttonRounded} as="a" href={primaryButtonUrl}>
               {primaryButtonText}
             </PrimaryButton>

@@ -48,8 +48,7 @@ export default ({ roundedHeaderButton }) => {
               Beautiful React Templates <span tw="text-primary-500">for you.</span>
             </Heading>
             <Paragraph>
-              Our templates are easy to setup, understand and customize. Fully modular components with a variety of
-              pages and components.
+              Бидний хийж бүтээсэн ажлууд нь эдүгээ улс орны шинжлэх ухаан, үйлдвэрлэлд нэвтэрч, үр ашгаа өгч байгаа билээ.
             </Paragraph>
            
             <CustomersLogoStrip>

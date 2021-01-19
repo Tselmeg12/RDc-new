@@ -32,20 +32,20 @@ export default ({textOnLeft = false}) => {
   //Change the statistics variable as you like, add or delete objects
   const statistics = [
     {
-      key: "Countries",
-      value: "192",
+      key: "Гадаадын түнш",
+      value: "0",
     },
     {
-      key: "Hotels",
-      value: "479",
+      key: "Дотоод түнш",
+      value: "0",
     },
     {
-      key: "Rooms",
-      value: "2093",
+      key: "Эрдэм шинжилгээ",
+      value: "0",
     },
     {
-      key: "Workers",
-      value: "10347",
+      key: "Төсөл хөтөлбөр",
+      value: "0",
     }
   ]
 
@@ -57,8 +57,8 @@ export default ({textOnLeft = false}) => {
         </ImageColumn>
         <TextColumn textOnLeft={textOnLeft}>
           <TextContent>
-            <Heading>We have the best service.</Heading>
-            <Description>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</Description>
+            <Heading>Бид одоогийн байдлаар.</Heading>
+            <Description>ХБНГУ-ын Фрайбергийн уул уурхайн академи, БНЧУ-ын Ураниум Индустрал ХК, Япон Улсын ЖАЙКА олон улсын байгууллага, БНХАУ-ын судалгааны хүрээлэнгийн эрдэмтэн судлаачидтай хамтын ажиллагааны чиглэлээр санал солилцсон ба БНСУ-ын Ханяны Их Сургуультай санамж бичиг байгуулан ажиллаж байна.</Description>
             <Statistics>
               {statistics.map((statistic, index) => (
               <Statistic key={index}>

@@ -59,17 +59,34 @@ export default ({
 
   const defaultSteps = [
     {
-      heading: "Register",
-      description: "Create an account with us using Google or Facebook."
+      heading: "Техник технологийн судалгаа",
+      
     },
     {
-      heading: "Download",
-      description: "Browse and Download the template that you like from the marketplace."
+      heading: "Эрдсийн найрлага, ширхэглэлийн тархалт сулралын зэрэг тодорхойлох судалгаа",
+      
     },
     {
-      heading: "Run",
-      description: "Follow the instructions to setup and customize the template to your needs."
-    }
+      heading: "Хүдэр бэлтгэх технологийн судалгаа",
+      
+    }, 
+   {
+      heading: " Үндсэн ба шороон ордын алт ялгах технологийн судалгаа",
+    
+    },
+      {
+      heading: " Нүүрс угаах, баяжуулах судалгаа",
+    
+    },
+    {
+      heading: " Баяжуулалтын технологийн судалгаа (технологийн сонголт, урвалжийн зарцуулалт, технологийн үнэлгээ гэх мэт.)",
+    
+    },
+     {
+      heading: "Хагас үйлдвэрлэлийн туршилт, судалгаа.)",
+    
+    },
+    
   ];
 
   if (!steps) steps = defaultSteps;

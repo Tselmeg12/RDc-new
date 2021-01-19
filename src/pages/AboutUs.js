@@ -22,39 +22,40 @@ export default () => {
     <AnimationRevealPage>
       <Header />
       <MainFeature1
-        subheading={<Subheading>About Treact</Subheading>}
-        heading="We are a modern desgin agency."
+        subheading={<Subheading>About Erdenes</Subheading>}
+        heading="Бидний алсын хараа."
         buttonRounded={false}
-        primaryButtonText="See Portfolio"
+       
         imageSrc="https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=768&q=80"
       />
       <MainFeature1
         subheading={<Subheading>Our Vision</Subheading>}
-        heading="We aim to disrupt the desgin space."
+        heading="БИДНИЙ ЭРХЭМ ЗОРИЛГО"
+        description="Эрдэм шинжилгээ судалгааны үр дүнд үндэслэсэн шийдлийг гаргах, нэвтрүүлэх, мэдлэгт суурилсан дэвшилтэт техник, технологийг эрхэмлэсэн шинжлэх ухааны төв байхад оршино."
         buttonRounded={false}
-        primaryButtonText="Contact Us"
+   
         imageSrc="https://images.unsplash.com/3/doctype-hi-res.jpg?ixlib=rb-1.2.1&auto=format&fit=crop&w=768&q=80"
         textOnLeft={false}
       />
       <Features
         subheading={<Subheading>Our Values</Subheading>}
-        heading="We follow these."
-        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        heading="Бидний үнэт зүйлс"
+        description="Монгол Улсад дэвшилтэт технологийн судалгаа шинжилгээ, туршилтын үйлдвэрлэлийг хөгжүүлэх, оюуны багтаамжтай өндөр технологийг нутагшуулах, инженерингийг хөгжүүлэх, судлаачдын мэдлэг оюуныг улсын хөгжилд тус нэмэр оруулах юм."
         cards={[
           {
             imageSrc: SupportIconImage,
-            title: "24/7 Support",
-            description: "Lorem ipsum donor amet siti ceali placeholder text alipiscing elit sed do eiusmod temport"
+            title: "Судалгаа шинжилгээнд суурилна",
+            description: "Аливаа асуудлыг шинжилгээ судалгааны үр дүнд тулгуурлаж, чанартай  гүйцэтгэнэ."
           },
           {
             imageSrc: ShieldIconImage,
-            title: "Strong Teams",
-            description: "Lorem ipsum donor amet siti ceali placeholder text alipiscing elit sed do eiusmod temport"
+            title: "Бид оюуны өмчийг хүндлэнэ",
+            description: " Олон улсын эрдэм шинжилгээ судалгааны хамтын ажиллагааг эрхэмлэнэ"
           },
           {
             imageSrc: CustomerLoveIconImage,
-            title: "Customer Satisfaction",
-            description: "Lorem ipsum donor amet siti ceali placeholder text alipiscing elit sed do eiusmod temport"
+            title: "Найдвартай хамтын ажилгаа",
+            description: "Харилцан ашигтай хамтын ажиллагаа, чанарыг эрхэмлэнэ"
           },
         ]}
         linkText=""

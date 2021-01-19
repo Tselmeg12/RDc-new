@@ -14,7 +14,7 @@ export default () => (
   <AnimationRevealPage>
     <Hero />
     <MainFeature />
- <Blog />
+    <Blog />
 
 
    

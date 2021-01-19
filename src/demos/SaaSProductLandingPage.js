@@ -3,8 +3,9 @@ import tw from "twin.macro";
 import { css } from "styled-components/macro"; //eslint-disable-line
 import AnimationRevealPage from "helpers/AnimationRevealPage.js";
 import Hero from "components/hero/TwoColumnWithInput.js";
+import Feature from "components/features/ThreeColSimple.js"
 import Features from "components/features/ThreeColWithSideImage.js";
-import MainFeature from "components/features/TwoColWithButton.js";
+import MainFeature from "components/features/Twocol.js";
 import MainFeature2 from "components/features/TwoColWithTwoHorizontalFeaturesAndButton.js";
 import FeatureWithSteps from "components/features/TwoColWithSteps.js";
 
@@ -29,7 +30,7 @@ export default () => {
         subheading={<Subheading>Features</Subheading>}
         heading={
           <>
-            We have Amazing <HighlightedText>Service.</HighlightedText>
+            Бидний <HighlightedText>үйлчилгээ.</HighlightedText>
           </>
         }
       />
@@ -43,7 +44,7 @@ export default () => {
         subheading={<Subheading>STEPS</Subheading>}
         heading={
           <>
-            Easy to <HighlightedText>Get Started.</HighlightedText>
+             <HighlightedText>Техник технологийн судалгаа</HighlightedText>
           </>
         }
         textOnLeft={false}
@@ -51,6 +52,7 @@ export default () => {
         imageDecoratorBlob={true}
         decoratorBlobCss={tw`xl:w-40 xl:h-40 opacity-15 -translate-x-1/2 left-1/2`}
       />
+      <Feature/>
       <MainFeature2
         subheading={<Subheading>VALUES</Subheading>}
         heading={

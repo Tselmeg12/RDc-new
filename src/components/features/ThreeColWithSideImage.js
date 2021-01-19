@@ -70,14 +70,19 @@ export default ({ cards = null, heading = "Манай үйлчилгээ", subhe
   const defaultCards = [
     {
       imageSrc: ShieldIconImage,
-      title: "Сургалт",
-      description: "We strictly only deal with vendors that provide top notch security."
+      title: "Эрдэм шинжилгээ",
+      description: "Монгол судлаачдын хийсэн ажлыг дэлхийд гаргах, олон улсын сургууль судалгааны байгууллагуудтай холбогдох гүүр болгох"
     },
-    { imageSrc: SupportIconImage, title: "Бизнесийн зөвлөгөө" },
-    { imageSrc: CustomizeIconImage, title: "Ордын ТЭЗҮ" },
-    { imageSrc: ReliableIconImage, title: "Ашиглалтын аудит" },
-    { imageSrc: FastIconImage, title: "Геомеханикийн лабораторийн үйлчилгээ" },
-    { imageSrc: SimpleIconImage, title: "Эрсдэлийн шинжилгээ" }
+    { imageSrc: SupportIconImage, title: "Бизнесийн зөвлөгөө",
+    description: "Хувьцаа худалдан авах, лиценз шилжүүлэх болон хамтарсан хөрөнгө оруулалтын талаар байгуулах гэрээ хэлэлцээрийн төслийг боловсруулах, гэрээний төсөл" },
+    { imageSrc: CustomizeIconImage, title: "Ордын ТЭЗҮ",
+    description: "Ордын хайгуул судалгаа, ашиглалт, баяжуулалт, эдийн засгийн тооцоо судалгааг хийх баримт бичгийг боловсруулах" },
+    { imageSrc: ReliableIconImage, title: "Ашиглалтын аудит",
+    description:"Уурхайн ашиглалтын үеийн шалгалт, хяналтыг хийн тооцоо судалгааг гаргах" },
+    { imageSrc: FastIconImage, title: "Геомеханикийн лабораторийн үйлчилгээ",
+    description:"Судалгааны шинжилгээний ажил хийх, туршилт хийх боломж нөхцлөөр хангах" },
+    { imageSrc: SimpleIconImage, title: "Эрсдэлийн шинжилгээ",
+    description: "Захиалагчид хууль эрх зүйн орчны мэдээллийг олгон эхлүүлж буй ажилд саад болох болон тулгарч болохуйц эрсдлүүдийг гарган зайлсхийх судалгааг хийнэ" }
   ];
 
   if (!cards) cards = defaultCards;
@@ -98,7 +103,7 @@ export default ({ cards = null, heading = "Манай үйлчилгээ", subhe
               <span className="textContainer">
                 <span className="title">{card.title || "Fully Secure"}</span>
                 <p className="description">
-                  {card.description || "Lorem ipsum donor amet siti ceali ut enim ad minim veniam, quis nostrud."}
+                  {card.description || " ceali ut enim ad minim veniam, quis nostrud."}
                 </p>
               </span>
             </Card>

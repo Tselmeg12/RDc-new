@@ -54,8 +54,8 @@ export default ({
   cards = [
     {
       imageSrc: ShieldIconImage,
-      title: "Secure",
-      description: "We strictly only deal with vendors that provide top notch security.",
+      title: "Техник технологийн судалгаа",
+      description: "Ашигт малтмалын баяжигдах шинж чанарын судалгаа Эрдсийн найрлага, ширхэглэлийн тархалт, сулралын зэрэг тодорхойлох судалгаа",
       url: "https://timerse.com"
     },
     {

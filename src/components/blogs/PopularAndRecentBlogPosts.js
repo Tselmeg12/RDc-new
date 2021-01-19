@@ -61,25 +61,25 @@ export default () => {
       postImageSrc:
         "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=640&q=80",
       authorImageSrc:
-        "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=3.25&w=512&h=512&q=80",
-      title: "Tips on how to travel safely in foreign countries",
+        "https://afmnoco.com/wp-content/uploads/2019/07/74046195_s.jpg",
+      title: "ЭР геэкологи-2019 төслийн багийнхан хээрийн ажилдаа гарав",
       description:
-        "Lorem ipsum dolor sit amet, consecteturious adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua now ele.",
-      authorName: "Charlotte Delos",
-      authorProfile: "Travel Advocate",
-      url: "https://timerse.com"
+        "Эрдэнэс Үндэсний судалгаа хөгжлийн төв ХХК-ийн төслийн багийнхан хээрийн ажлаар төслийн талбайд ажиллаа.",
+      authorName: "Д.Энхмаа",
+      authorProfile: "Мэдээ бэлтгэсэн судлаач",
+      url: "https://medium.com/@info_39407/aff792b93ba4"
     },
     {
       postImageSrc:
         "https://images.unsplash.com/photo-1563784462041-5f97ac9523dd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=640&q=80",
       authorImageSrc:
-        "https://images.unsplash.com/photo-1531427186611-ecfd6d936c79?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2.25&w=512&h=512&q=80",
-      title: "Enjoying the beach life while on a vacation",
+        "https://st.depositphotos.com/1779253/5140/v/600/depositphotos_51405259-stock-illustration-male-avatar-profile-picture-use.jpg",
+      title: "Төвийн судлаачид БНХАУ-ын нүүрсний уурхайд зочиллоо",
       description:
-        "Lorem ipsum dolor sit amet, consecteturious adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua now ele.",
-      authorName: "Adam Cuppy",
-      authorProfile: "Vlogger",
-      url: "https://reddit.com"
+        "ЭҮСХТөвийн төлөөлөл БНХАУ-ын Нүүрсний уурхайд зочилж, уурхайн олборлолтын үйл ажиллагаа, нүүрс баяжуулах технологийн талаар туршлага судалллаа. ",
+      authorName: "Б.Чинзориг",
+      authorProfile: "Мэдээ бэлтгэсэн судлаач",
+      url: "https://medium.com/@info_39407/a86782a3a6df"
     }
   ];
 
@@ -87,36 +87,36 @@ export default () => {
     {
       postImageSrc:
         "https://images.unsplash.com/photo-1552733407-5d5c46c3bb3b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=256&q=80",
-      title: "Getting the most out of your vacation",
-      authorName: "Aaron Patterson",
+      title: "Ажлын үр дүнгийн хэлэлцүүлэг боллоо",
+      authorName: "Бэлтгэсэн: Б.Ариунзаяа",
+      url: "https://info-39407.medium.com/2019-09-20-21f18c9ab68c"
+    },
+    {
+      postImageSrc:
+        "https://info-39407.medium.com/2019-09-05-8db32c8351e1",
+      title: "БНХАУ-ын Шэнжөү группын төлөөлөл айлчиллаа",
+      authorName: "Бэлтгэсэн: Б.Ариунзаяа",
       url: "https://reddit.com"
     },
     {
       postImageSrc:
-        "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=256&q=80",
-      title: "Choosing the perfect Safaris in Africa",
-      authorName: "Sam Phipphen",
-      url: "https://reddit.com"
-    },
-    {
-      postImageSrc:
-        "https://images.unsplash.com/photo-1503220317375-aaad61436b1b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=256&q=80",
-      title: "Hiking during the monsoon in Asia",
-      authorName: "Tony Hawk",
+        "https://info-39407.medium.com/%D0%B1%D0%B0%D1%8F%D1%80-%D0%B1%D0%BE%D0%BB%D0%BB%D0%BE%D0%BE-d0b2065ad6df",
+      title: "Баяр боллоо",
+      authorName: "Бэлтгэсэн: Б.Ариунзаяа",
       url: "https://timerse.com"
     },
     {
       postImageSrc:
         "https://images.unsplash.com/photo-1504609773096-104ff2c73ba4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=256&q=80",
-      title: "Must carry items while travelling to Thailand",
-      authorName: "Himali Turn",
+      title: "Эрдэнэт хотын геоэкологи, гидрогеологийн судалгааны ажлыг эхлүүллээ",
+      authorName: "Бэлтгэсэн: Б.Ариунзаяа",
       url: "https://timerse.com"
     },
     {
       postImageSrc:
         "https://images.unsplash.com/photo-1546971587-02375cbbdade?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=641&q=80",
-      title: "An extremely funny trip to the Swiss Alps",
-      authorName: "Naomi Watts",
+      title: "2020 оны анхны томилолт боллоо",
+      authorName: "Бэлтгэсэн: Б.Ариунзаяа",
       url: "https://timerse.com"
     },
   ]
@@ -126,7 +126,7 @@ export default () => {
       <ContentWithPaddingXl>
         <Row>
           <PopularPostsContainer>
-            <Heading>Popular Posts</Heading>
+            <Heading>Хамгийн их уншигдсан</Heading>
             <PostsContainer>
               {popularPosts.map((post, index) => (
                 <Post key={index} href={post.url} className="group" initial="rest" whileHover="hover" animate="rest">
@@ -149,7 +149,7 @@ export default () => {
             </PostsContainer>
           </PopularPostsContainer>
           <RecentPostsContainer>
-            <Heading>Recent Posts</Heading>
+            <Heading>Сүүлийн үеийн мэдээлэл</Heading>
             <PostsContainer>
               {recentPosts.map((post, index) => (
               <Post key={index} href={post.url} className="group">
